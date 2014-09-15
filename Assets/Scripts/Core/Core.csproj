@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F9614136-0AF7-4290-B834-56E45B7E41E2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Core</RootNamespace>
+    <AssemblyName>Core</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\Plugins\Core\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\..\Plugins\Core\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ionic.Zlib">
+      <HintPath>..\Plugins\Ionic.Zlib.dll</HintPath>
+    </Reference>
+    <Reference Include="JsonFx.Json">
+      <HintPath>lib\JsonFx.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>E:\Program Files (x86)\Unity4.5\Editor\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Src\Common\Panel.cs" />
+    <Compile Include="Src\Config\ResConfig.cs" />
+    <Compile Include="Src\Engine.cs" />
+    <Compile Include="Src\Manager\HttpManager.cs" />
+    <Compile Include="Src\Module\Demo\DemoMediator.cs" />
+    <Compile Include="Src\Module\Demo\DemoModule.cs" />
+    <Compile Include="Src\Module\Demo\View\DemoPanel.cs" />
+    <Compile Include="Src\Module\Initialize\InitializeModule.cs" />
+    <Compile Include="Src\Module\Interface\ICommand.cs" />
+    <Compile Include="Src\Module\Interface\IMediator.cs" />
+    <Compile Include="Src\Module\Interface\IModule.cs" />
+    <Compile Include="Src\Module\Interface\INotification.cs" />
+    <Compile Include="Src\Module\Interface\INotifier.cs" />
+    <Compile Include="Src\Module\Interface\IProxy.cs" />
+    <Compile Include="Src\Interface\ITickObject.cs" />
+    <Compile Include="Src\Manager\EventManager.cs" />
+    <Compile Include="Src\Manager\ModuleManager.cs" />
+    <Compile Include="Src\Manager\OTManager.cs" />
+    <Compile Include="Src\Manager\ProtocolManager.cs" />
+    <Compile Include="Src\Manager\SocketManager.cs" />
+    <Compile Include="Src\Module\Pattern\Command.cs" />
+    <Compile Include="Src\Module\Pattern\Mediator.cs" />
+    <Compile Include="Src\Module\Pattern\BaseModule.cs" />
+    <Compile Include="Src\Module\Pattern\Notification.cs" />
+    <Compile Include="Src\Module\Pattern\Notifier.cs" />
+    <Compile Include="Src\Module\Pattern\Proxy.cs" />
+    <Compile Include="Src\Net\Protocol\Command.cs" />
+    <Compile Include="Src\Net\Protocol\PackageConverter.cs" />
+    <Compile Include="Src\Net\Sockets\ByteBuffer.cs" />
+    <Compile Include="Src\Net\Sockets\ByteSocket.cs" />
+    <Compile Include="Src\Net\Sockets\NetSocket.cs" />
+    <Compile Include="Src\Net\Sockets\PackageIn.cs" />
+    <Compile Include="Src\Net\Sockets\PackageOut.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Src\Utilities\EaseUtil.cs" />
+    <Compile Include="Src\Utilities\Pool.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Plugins\Helper\Helper.csproj">
+      <Project>{36fc5c64-1ec1-41ca-bced-60c0c185d0b6}</Project>
+      <Name>Helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Plugins\MsgPack\MsgPack.csproj">
+      <Project>{6928b7c5-083b-4edb-b917-9b6cbf2bd195}</Project>
+      <Name>MsgPack</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Plugins\NGUI\NGUI.csproj">
+      <Project>{44e2adf6-aa62-4225-9bde-41a054d97989}</Project>
+      <Name>NGUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Plugins\TK2D\TK2D.csproj">
+      <Project>{43bd54fe-dd45-4983-98bb-0e9e6a9ee097}</Project>
+      <Name>TK2D</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Plugins\UniWeb\UniWeb.csproj">
+      <Project>{68cee406-fe47-4a88-91c0-3b9d5373153e}</Project>
+      <Name>UniWeb</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

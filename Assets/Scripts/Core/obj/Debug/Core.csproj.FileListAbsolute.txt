@@ -1,0 +1,5 @@
+E:\Framework\Test\Assets\Scripts\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
+E:\Framework\Plugins\Core\bin\Debug\Core.dll
+E:\Framework\Plugins\Core\bin\Debug\Core.pdb
+E:\Framework\Test\Assets\Scripts\Core\obj\Debug\Core.dll
+E:\Framework\Test\Assets\Scripts\Core\obj\Debug\Core.pdb

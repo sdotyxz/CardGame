@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1890220652, guid: 1de8cf121c4177649b42248a9c664b77, type: 3}
+  m_Name: HeroBaseData
+  m_EditorClassIdentifier: 
+  tpls:
+  - id: 10001
+    icon: 10001
+    name: "\u5947\u8469"
+    desc: "\u5947\u8469"
+    queue: 10001
+    type: 1
+    need_soul_stone: 7
+    soul_stone_id: 10001

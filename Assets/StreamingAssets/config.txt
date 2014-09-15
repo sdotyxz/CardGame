@@ -1,0 +1,30 @@
+{
+	"version":"0.01.01",
+	"language":"ZH_CN",
+	"os":"Android",
+	"notice":{
+		"title":"NOTICE",
+		"content":"CONTENT",
+		"url":"http://113.107.150.196:8080/jzwl/uplus/zszb_zh_cn_00805_2014_07_30.apk"
+	},
+	"bundles":[
+		{
+			"id":"DLL",
+			"url":"DLL.bundle",
+			"version":"0.01.06",
+			"isEncrypted":"false"
+		},
+		{
+			"id":"CONFIG",
+			"url":"CONFIG.bundle",
+			"version":"0.01.02",
+			"isEncrypted":"false"
+		},
+		{
+			"id":"GUI",
+			"url":"GUI.bundle",
+			"version":"0.01.02",
+			"isEncrypted":"false"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41cb500cf0f58e74f9a52a8af931edde, type: 3}
+  m_Name: -tk2d
+  m_EditorClassIdentifier: 
+  version: 4
+  spriteAnimationIndex: []
+  fontIndex:
+  - assetGUID: 41cdc4f317984bb42ba9eb6207f80697
+    dataGUID: 71470a6ba7d567642bb42de60c6241ee
+    managed: 0
+    loadable: 0
+  spriteCollectionIndex:
+  - name: Common
+    spriteCollectionGUID: bf063b1d116d0434da040c19ac35e698
+    spriteCollectionDataGUID: c7853804ac97cb7458fda41a1c109747
+    spriteNames:
+    - sliderB_cover
+    spriteTextureGUIDs:
+    - 3f98fbdd4204d724d80a191598d1a62f
+    spriteTextureTimeStamps:
+    - 1405606737.68434
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -785186971, guid: 1de8cf121c4177649b42248a9c664b77, type: 3}
+  m_Name: HeroGradeData
+  m_EditorClassIdentifier: 
+  tpls:
+  - id: 10001
+    grade: 1
+    strength: 50
+    intelligence: 50
+    agility: 50
+    max_health: 500
+    max_energy: 500
+    attack: 500
+    defense: 5
+    magic: 5
+    anti_magic: 5
+    phy_crit: 5
+    magic_crit: 5
+    hp_speed: 5
+    mp_speed: 5
+    phy_pen: 5
+    magic_pen: 5
+    vampire: 5
+    cure: 5
+    dodge: 5
+    energy_cost_dec: 5
+    attack_distance: 100
+    attack_speed: 50
+    move_speed: 50

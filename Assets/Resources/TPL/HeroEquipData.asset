@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -534164603, guid: 1de8cf121c4177649b42248a9c664b77, type: 3}
+  m_Name: HeroEquipData
+  m_EditorClassIdentifier: 
+  tpls:
+  - id: 10001
+    grade: 1
+    equip_pos: 1
+    item_id: 100001
+  - id: 10001
+    grade: 1
+    equip_pos: 2
+    item_id: 100001
+  - id: 10001
+    grade: 1
+    equip_pos: 3
+    item_id: 100001
+  - id: 10001
+    grade: 1
+    equip_pos: 4
+    item_id: 100001
+  - id: 10001
+    grade: 1
+    equip_pos: 5
+    item_id: 100001
+  - id: 10001
+    grade: 1
+    equip_pos: 6
+    item_id: 100001

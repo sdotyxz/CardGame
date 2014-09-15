@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 793467107, guid: 1de8cf121c4177649b42248a9c664b77, type: 3}
+  m_Name: EquipTpl
+  m_EditorClassIdentifier: 
+  tpls:
+  - id: 1000001
+    name: "\u6CA1\u6709\u6B66\u5668"
+    desc: "\u6CA1\u6709\u6B66\u5668"
+    icon: 1000001
+    grade: 1
+    strength: 2
+    intelligence: 2
+    agility: 2
+    max_health: 2
+    max_energy: 2
+    attack: 2
+    magic: 2
+    defense: 2
+    anti_magic: 2
+    phy_crit: 2
+    magic_crit: 2
+    hp_speed: 2
+    mp_speed: 2
+    phy_pen: 2
+    magic_pen: 2
+    vampire: 2
+    cure: 2
+    dodge: 2
+    energy_cost_dec: 2
+    attack_distance: 2
+    attack_speed: 2
+    move_speed: 2
